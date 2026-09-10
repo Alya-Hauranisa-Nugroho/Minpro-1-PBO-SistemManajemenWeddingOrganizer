@@ -191,7 +191,7 @@ Apabila telah menyelesaikan proses update, pengguna dapat memilih menu “4” u
 
 ### **4. Menu Hapus**
 
-Ketika pengguna memilih **“4”** pada menu utama, pengguna akan masuk ke dalam **Menu Hapus**. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
+Ketika pengguna memilih “4” pada menu utama, pengguna akan masuk ke dalam Menu Hapus. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
 
 <img width="473" height="244" alt="image" src="https://github.com/user-attachments/assets/b9937aff-0999-4fe3-afb4-7cbf83aa91fa" />
 
