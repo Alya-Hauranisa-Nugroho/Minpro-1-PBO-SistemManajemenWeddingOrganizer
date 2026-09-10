@@ -232,55 +232,27 @@ Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memili
 
 ---
 
-## ⭐ Nilai Tambah pada Program
+## ⭐ Penerapan Nilai Tambah pada Program
 
-Selain menerapkan CRUD dan konsep OOP, program ini memiliki beberapa nilai tambah sebagai berikut.
+Program ini memiliki penerapan nilai tambah, yaitu sebagai berikut:
 
-### 🔐 1. Access Modifier
+### **1. Access Modifier**
+Pada program ini, saya menerapkan access modifier private pada atribut yang terdapat di dalam class data, seperti Pelanggan, PaketWedding, dan PemesananWedding. Penggunaan private membuat atribut tersebut hanya dapat diakses secara langsung dari dalam class tempat atribut tersebut didefinisikan.
 
-Program menerapkan access modifier **`private`** pada atribut dalam class seperti `Pelanggan`, `PaketWedding`, dan `PemesananWedding`.
+Contohnya terdapat pada baris kode di class Pelanggan, yaitu:
 
-Contohnya:
+<img width="361" height="118" alt="image" src="https://github.com/user-attachments/assets/752974b1-c388-4f47-bed3-eb56448a9b13" />
 
-```java
-private int idPelanggan;
-private String nama;
-private String noHp;
-```
+Penggunaan access modifier pada gambar di atas menunjukkan bahwa data pada setiap object tidak dapat diakses atau diubah secara langsung dari luar class.
 
-Penggunaan `private` membuat atribut tidak dapat diakses secara langsung dari luar class.
+### **2. Access Modifier**
+Pada program ini, saya menerapkan konsep encapsulation dengan menyembunyikan atribut menggunakan access modifier private dan menyediakan getter serta setter untuk mengakses atau mengubah data tertentu.
 
-### 📦 2. Encapsulation
+Sebagai contoh, pada class Pelanggan terdapat penerapan method getter dan setter:
 
-Konsep **encapsulation** diterapkan dengan menggunakan atribut `private` yang diakses melalui **getter dan setter**.
+<img width="453" height="517" alt="image" src="https://github.com/user-attachments/assets/273dd8bf-606c-4172-ba3c-2a3f09745a7a" />
 
-Contohnya:
 
-```java
-public String getNama() {
-    return nama;
-}
+Getter digunakan untuk mengambil nilai dari atribut, sedangkan setter digunakan untuk mengubah nilai atribut. Sehingga akses terhadap data dalam object dilakukan melalui method yang telah disediakan oleh class, sehingga data tidak diakses secara langsung dari luar class.
 
-public void setNama(String nama) {
-    this.nama = nama;
-}
-```
-
-Dengan demikian, data dalam object dapat dikontrol melalui method yang telah disediakan oleh class.
-
-Selain itu, tidak semua atribut memiliki setter. Contohnya, ID pada data pelanggan dan paket hanya ditentukan ketika object dibuat sehingga tidak dapat diubah melalui setter.
-
-### ✅ 3. Validasi Input
-
-Program juga memiliki validasi untuk membantu mencegah data yang tidak sesuai.
-
-Beberapa validasi yang diterapkan antara lain:
-
-* Mengecek agar ID pelanggan tidak sama dengan ID yang sudah tersimpan.
-* Mengecek agar ID paket tidak sama dengan ID yang sudah tersimpan.
-* Mengecek agar ID booking tidak sama dengan ID booking yang sudah tersimpan.
-* Mengecek keberadaan ID pelanggan dan paket saat membuat pemesanan.
-* Mengecek keberadaan ID saat melakukan update atau hapus data.
-* Mengecek pilihan menu agar hanya pilihan yang tersedia yang dapat diproses.
-
-Dengan adanya validasi tersebut, pengguna tidak dapat memasukkan ID yang sama untuk data yang seharusnya memiliki ID berbeda dan tidak dapat membuat pemesanan menggunakan pelanggan atau paket yang belum tersedia.
+Terlihat juga pada gambar di atas bahwa tidak semua atribut memiliki setter. Contohnya, idPelanggan hanya memiliki getter sehingga ID tidak dapat diubah setelah object dibuat. Hal ini bertujuan untuk membantu menjaga data tertentu agar tetap sesuai dengan nilai awalnya.
