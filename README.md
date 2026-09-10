@@ -11,7 +11,7 @@
 
 Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
-Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP, serta fitur fitur sederhana yang mendukung CRUD (Create, Read, Update, Delete). Program ini memungkinkan pengguna untuk mengelola data pelanggan, paket wedding, serta pemesanan wedding yang mencatat informasi seperti pelanggan yang melakukan pemesanan, paket wedding yang dipilih, venue, pax, serta tanggal pelaksanaan acara.
+Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP, serta fitur fitur sederhana yang mendukung CRUD (_Create, Read, Update, Delete_). Program ini memungkinkan pengguna untuk mengelola data pelanggan, paket wedding, serta pemesanan wedding yang mencatat informasi seperti pelanggan yang melakukan pemesanan, paket wedding yang dipilih, venue, pax, serta tanggal pelaksanaan acara.
 
 ---
 
@@ -127,7 +127,9 @@ Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "4" untuk
 
 <img width="484" height="245" alt="image" src="https://github.com/user-attachments/assets/f43ce51e-aff5-43e8-b753-e22dc519e881" />
 
-Ketika pengguna memilih “2” pada menu utama, pengguna akan masuk ke dalam Menu Tampilkan, di mana menu ini memungkinkan pengguna untuk melihat data yang sudah ada pada data pelanggan, paket wedding, maupun pemesanan wedding. Berikut merupakan tampilan untuk Menu Tampilkan di setiap data:
+Ketika pengguna memilih “2” pada menu utama, pengguna akan masuk ke dalam Menu Tampilkan, di mana menu ini memungkinkan pengguna untuk melihat data yang sudah ada pada data pelanggan, paket wedding, maupun pemesanan wedding. 
+
+Berikut merupakan tampilan untuk Menu Tampilkan di setiap data:
 
 * **Tampilkan Pelanggan**
 
