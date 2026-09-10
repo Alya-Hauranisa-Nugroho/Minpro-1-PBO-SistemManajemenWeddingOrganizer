@@ -11,7 +11,7 @@
 
 ## 📌 Deskripsi Program
 
-Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana
+Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
 Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP, serta fitur fitur sederhana yang mendukung CRUD (Create, Read, Update, Delete). Program ini memungkinkan pengguna untuk mengelola data pelanggan, paket wedding, serta pemesanan wedding yang mencatat informasi seperti pelanggan yang melakukan pemesanan, paket wedding yang dipilih, venue, pax, serta tanggal pelaksanaan acara.
 
@@ -73,21 +73,69 @@ Atribut yang diterapkan pada class ini meliputi:
 
 ## 🔄 Dokumentasi Alur Program
 
-Secara umum, alur program adalah sebagai berikut:
+Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. 
 
-### Menu Tambah
+Apabila pengguna telah menyelesaikan proses CRUD yang dipilih dan memilih menu “Kembali ke Menu Utama”, program akan kembali ke menu utama sehingga pengguna dapat melakukan proses lainnya. Program akan terus berjalan selama pengguna belum memilih menu Keluar.
 
-Secara umum, alur program dimulai ketika pengguna menjalankan program dan akan diarahkan ke ****menu utama******** yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih jenis data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. Setelah proses selesai, program akan kembali ke menu utama sehingga pengguna dapat melakukan proses lainnya. Program akan terus berjalan selama pengguna belum memilih menu Keluar.
+### 1. Menu Utama
+<img width="472" height="341" alt="image" src="https://github.com/user-attachments/assets/e2ec58d7-0361-4558-8b5e-46fbd85224e4" />
 
-Pengguna dapat menambahkan:
+<img width="470" height="326" alt="image" src="https://github.com/user-attachments/assets/4e3910f0-7e09-477f-a1a5-c9cb82d8c35a" />
+
+Pada gambar di atas, saya menampilkan menu utama dari program yang telah dirancang. Terdapat 5 menu utama yang dapat dipilih, yaitu menu untuk menambahkan data, menampilkan data, menghapus data, mengupdate data, serta menu untuk keluar dari program. Pengguna akan diminta untuk memilih salah satu dari kelima menu tersebut.
+
+### 2. Menu Tambah
+
+<img width="465" height="219" alt="image" src="https://github.com/user-attachments/assets/994e7fa4-0f1d-4aa8-ba09-fb885bb358a2" />
+
+Ketika pengguna memilih “1” pada menu utama, pengguna akan masuk ke dalam Menu Tambah, di mana menu ini memungkinkan pengguna untuk memasukkan data baru pada data pelanggan, paket wedding, maupun pemesanan wedding. Pengguna dapat memilih salah satu jenis data yang ingin ditambahkan sesuai dengan kebutuhan. Pada tampilan tersebut, saya memilih menu “1", "yaitu Tambah Pelanggan”, sehingga program akan melanjutkan ke proses untuk memasukkan data pelanggan.
+
+* Tambah Pelanggan
+
+<img width="568" height="411" alt="image" src="https://github.com/user-attachments/assets/9dbccc13-34a0-4a31-ad23-4c82098f334b" />
+
+Selanjutnya, program akan menampilkan tempat untuk memasukkan data pelanggan. Pengguna diminta memasukkan ID Pelanggan, Nama Pelanggan, dan No HP. Setelah seluruh data berhasil dimasukkan, program menampilkan pesan bahwa data pelanggan berhasil ditambahkan, kemudian kembali menampilkan Menu Tambah agar pengguna dapat melanjutkan proses penambahan data lainnya.
+
+Berikut merupakan proses penambahan data lainnya:
+
+* Tambah Paket Wedding
+
+<img width="542" height="224" alt="image" src="https://github.com/user-attachments/assets/147a4c5b-e140-4a0b-9fff-0c76b142049d" />
+
+* Tambah Pemesanan Wedding
+
+<img width="463" height="362" alt="image" src="https://github.com/user-attachments/assets/2cc31b67-7149-4bb5-a765-a501251e9c0d" />
+
+<img width="706" height="876" alt="image" src="https://github.com/user-attachments/assets/65cdc62c-9d67-49fe-b4c7-614ca256c260" />
+
+Berdasarkan gambar di atas, diketahui bahwa pengguna dapat menambahkan:
 
 * **Pelanggan**, dengan memasukkan ID, nama, dan nomor HP.
 * **Paket Wedding**, dengan memasukkan ID, nama paket, dan harga.
 * **Pemesanan Wedding**, dengan memilih pelanggan dan paket wedding yang sudah tersedia, kemudian memasukkan venue, tanggal acara, dan jumlah pax.
 
+<img width="468" height="569" alt="image" src="https://github.com/user-attachments/assets/5c345a71-7f5b-4056-afcf-876e7fb374ca" />
+
+Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "4" untuk keluar dari menu tambah dan kembali ke menu utama.
+
 ### Menu Tampilkan
 
-Menu Tampilkan digunakan untuk melihat data yang sudah tersimpan.
+<img width="484" height="245" alt="image" src="https://github.com/user-attachments/assets/f43ce51e-aff5-43e8-b753-e22dc519e881" />
+
+Ketika pengguna memilih “2” pada menu utama, pengguna akan masuk ke dalam Menu Tampilkan, di mana menu ini memungkinkan pengguna untuk melihat data yang sudah ada pada data pelanggan, paket wedding, maupun pemesanan wedding. Berikut merupakan tampilan untuk Menu Tampilkan di setiap data:
+
+* Tampilkan Pelanggan
+
+<img width="466" height="213" alt="image" src="https://github.com/user-attachments/assets/6a5c670e-ce87-42a5-818e-132a04b48806" />
+
+* Tampilkan Paket Wedding
+
+<img width="480" height="756" alt="image" src="https://github.com/user-attachments/assets/b9631b23-686c-4740-ac43-4ce9df8fe1f5" />
+
+* Pemesanan Wedding
+
+<img width="469" height="293" alt="image" src="https://github.com/user-attachments/assets/84801c1a-3880-4d73-8a4c-4f80163d660b" />
+
 
 Pengguna dapat melihat:
 
