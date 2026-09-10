@@ -2,61 +2,236 @@
 
 ### Houry do Wedds
 
-**Nama:** Houry do Wedds
+**Nama:** Alya Hauranisa Nugroho\
+**NIM:** 2509116005\
+**Kelas:** Sistem Informasi A 2025\
+**Mata Kuliah:** Pemrograman Berorientasi Objek
 
 ---
 
 ## 📌 Deskripsi Program
 
-**Houry do Wedds** merupakan program berbasis bahasa pemrograman **Java** yang digunakan untuk mengelola data pada layanan **Wedding Organizer** secara sederhana.
+Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana
 
-Program ini dibuat dengan menerapkan konsep **Object-Oriented Programming (OOP)** serta fitur **CRUD (Create, Read, Update, Delete)**. Pengguna dapat mengelola beberapa data yang berkaitan dengan penyelenggaraan acara pernikahan, seperti data pelanggan, paket wedding, vendor, dan jadwal kegiatan.
-
-Program dijalankan melalui **Command Line Interface (CLI)** dengan menu yang dapat dipilih oleh pengguna sesuai kebutuhan.
-
----
-
-## 🛠️ Teknologi dan Konsep yang Digunakan
-
-* **Bahasa Pemrograman:** Java
-* **Konsep:** Object-Oriented Programming (OOP)
-* **Struktur Data:** `ArrayList`
-* **Input:** `Scanner`
-* **Interface:** Command Line Interface (CLI)
-* **Fitur:** CRUD
+Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP, serta fitur fitur sederhana yang mendukung CRUD (Create, Read, Update, Delete). Program ini memungkinkan pengguna untuk mengelola data pelanggan, paket wedding, serta pemesanan wedding yang mencatat informasi seperti pelanggan yang melakukan pemesanan, paket wedding yang dipilih, venue, pax, serta tanggal pelaksanaan acara.
 
 ---
 
 ## 📂 Struktur Class
 
-Program **Houry do Wedds** terdiri dari beberapa class dengan fungsi yang berbeda.
+Program Sistem Manajemen Wedding Organizer terdiri dari beberapa class dengan fungsi yang berbeda, diantaranya yaitu:
 
-### 1. `SistemHouryDoWedds.java`
+### 1. `WeddingOrganizer.java`
+Class ini merupakan class utama yang menjadi _entry point_ program. Class ini digunakan untuk menjalankan program, menampilkan menu utama, serta memanggil fungsi yang terdapat pada `WeddingCRUD.java`.
+Menu utama pada program ini terdiri dari:
+1. Menu Tambah
+2. Menu Tampilkan
+3. Menu Update
+4. Menu Hapus
+5. Keluar >>>
 
-Merupakan **class utama (main class)** yang menjadi entry point program. Class ini digunakan untuk menjalankan program, menampilkan menu utama, menerima input pilihan pengguna, serta memanggil fungsi yang terdapat pada `WeddingCRUD.java`.
+### 2. `WeddingCRUD.java`
+Class ini merupakan class service yang menangani proses utama CRUD pada program. Class ini menyediakan fungsi untuk menambahkan, menampilkan, mengubah, dan menghapus data.
+
+Data yang dikelola pada class ini meliputi:
+* Pelanggan
+* Paket Wedding
+* Pemesanan Wedding
+
+Class ini juga menggunakan `ArrayList` untuk menyimpan data selama program berjalan.
+
+### 3. `Pelanggan.java`
+Class ini merupakan class data yang merepresentasikan pelanggan yang melakukan pemesanan pada wedding organizer Class ini memiliki informasi pelanggan yang berupa ID pelanggan, nama pelanggan, dan no HP.
+
+Atribut yang diterapkan pada class ini meliputi:
+* idPelanggan
+* nama
+* noHp
+
+### 4. `PaketWedding.java`
+Class ini merupakan class data yang merepresentasikan paket wedding yang tersedia. Setiap paket memiliki informasi berupa ID paket, nama paket, dan harga yang dapat digunakan dalam proses pemesanan.
+
+Atribut yang diterapkan pada class ini meliputi:
+
+* idPaket
+* namaPaket
+* harga
+
+### 5. `PemesananWedding.java`
+Class ini merupakan class data yang merepresentasikan data pemesanan wedding. Class ini menyimpan informasi mengenai pelanggan, paket yang dipilih, serta detail dari acara wedding yang telah dibooking.
+
+Atribut yang diterapkan pada class ini meliputi:
+
+* idBooking
+* pelanggan
+* paketWedding
+* venue
+* tanggalAcara
+* pax
+
+---
+
+## 🔄 Dokumentasi Alur Program
+
+Secara umum, alur program adalah sebagai berikut:
+
+### Menu Tambah
+
+Secara umum, alur program dimulai ketika pengguna menjalankan program dan akan diarahkan ke ****menu utama******** yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih jenis data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. Setelah proses selesai, program akan kembali ke menu utama sehingga pengguna dapat melakukan proses lainnya. Program akan terus berjalan selama pengguna belum memilih menu Keluar.
+
+Pengguna dapat menambahkan:
+
+* **Pelanggan**, dengan memasukkan ID, nama, dan nomor HP.
+* **Paket Wedding**, dengan memasukkan ID, nama paket, dan harga.
+* **Pemesanan Wedding**, dengan memilih pelanggan dan paket wedding yang sudah tersedia, kemudian memasukkan venue, tanggal acara, dan jumlah pax.
+
+### Menu Tampilkan
+
+Menu Tampilkan digunakan untuk melihat data yang sudah tersimpan.
+
+Pengguna dapat melihat:
+
+* Daftar pelanggan
+* Daftar paket wedding
+* Daftar pemesanan wedding
+
+Pada data pemesanan, sistem menampilkan informasi pelanggan dan paket wedding yang dipilih beserta detail acaranya.
+
+### Menu Update
+
+Menu Update digunakan untuk mengubah data yang sudah tersimpan.
+
+Pengguna dapat melakukan perubahan pada:
+
+* Nama dan nomor HP pelanggan
+* Harga paket wedding
+* Venue, tanggal acara, dan jumlah pax pada pemesanan
+
+### Menu Hapus
+
+Menu Hapus digunakan untuk menghapus data berdasarkan ID yang dimasukkan oleh pengguna.
+
+Pengguna dapat menghapus:
+
+* Data pelanggan
+* Data paket wedding
+* Data pemesanan wedding
+
+### 🚪 Keluar
+
+Menu Keluar digunakan untuk mengakhiri program.
+
+---
+
+## ⭐ Nilai Tambah Program
+
+Selain menerapkan CRUD dan konsep OOP, program ini memiliki beberapa nilai tambah sebagai berikut.
+
+### 🔐 1. Access Modifier
+
+Program menerapkan access modifier **`private`** pada atribut dalam class seperti `Pelanggan`, `PaketWedding`, dan `PemesananWedding`.
+
+Contohnya:
+
+```java
+private int idPelanggan;
+private String nama;
+private String noHp;
+```
+
+Penggunaan `private` membuat atribut tidak dapat diakses secara langsung dari luar class.
+
+### 📦 2. Encapsulation
+
+Konsep **encapsulation** diterapkan dengan menggunakan atribut `private` yang diakses melalui **getter dan setter**.
+
+Contohnya:
+
+```java
+public String getNama() {
+    return nama;
+}
+
+public void setNama(String nama) {
+    this.nama = nama;
+}
+```
+
+Dengan demikian, data dalam object dapat dikontrol melalui method yang telah disediakan oleh class.
+
+Selain itu, tidak semua atribut memiliki setter. Contohnya, ID pada data pelanggan dan paket hanya ditentukan ketika object dibuat sehingga tidak dapat diubah melalui setter.
+
+### ✅ 3. Validasi Input
+
+Program juga memiliki validasi untuk membantu mencegah data yang tidak sesuai.
+
+Beberapa validasi yang diterapkan antara lain:
+
+* Mengecek agar ID pelanggan tidak sama dengan ID yang sudah tersimpan.
+* Mengecek agar ID paket tidak sama dengan ID yang sudah tersimpan.
+* Mengecek agar ID booking tidak sama dengan ID booking yang sudah tersimpan.
+* Mengecek keberadaan ID pelanggan dan paket saat membuat pemesanan.
+* Mengecek keberadaan ID saat melakukan update atau hapus data.
+* Mengecek pilihan menu agar hanya pilihan yang tersedia yang dapat diproses.
+
+Dengan adanya validasi tersebut, pengguna tidak dapat memasukkan ID yang sama untuk data yang seharusnya memiliki ID berbeda dan tidak dapat membuat pemesanan menggunakan pelanggan atau paket yang belum tersedia.
+
+---
+
+## 📋 Ringkasan Fitur
+
+| Fitur       | Pelanggan | Paket Wedding | Pemesanan Wedding |
+| ----------- | :-------: | :-----------: | :---------------: |
+| Tambah      |     ✅     |       ✅       |         ✅         |
+| Tampilkan   |     ✅     |       ✅       |         ✅         |
+| Update      |     ✅     |       ✅       |         ✅         |
+| Hapus       |     ✅     |       ✅       |         ✅         |
+| Validasi ID |     ✅     |       ✅       |         ✅         |
+
+---
+
+## 💻 Contoh Data Paket Wedding
+
+Program menyediakan beberapa data paket wedding awal:
+
+| ID | Nama Paket                 |        Harga |
+| -: | -------------------------- | -----------: |
+|  1 | Paket Bismillah Lancar     | Rp15.000.000 |
+|  2 | Paket Gas Nikah            | Rp25.000.000 |
+|  3 | Paket Akhirnya Sah         | Rp40.000.000 |
+|  4 | Paket Cinta Sampai Tua     | Rp55.000.000 |
+|  5 | Paket Lancar Sampai Hari H | Rp75.000.000 |
+
+Data tersebut dapat digunakan langsung saat pengguna membuat pemesanan wedding.
+
+---
+
+## 🎯 Kesimpulan
+
+**Sistem Manajemen Wedding Organizer “Houry Do Wedds”** merupakan program sederhana berbasis Java yang digunakan untuk mengelola data pelanggan, paket wedding, dan pemesanan wedding.
+
+Program ini menerapkan konsep **Object-Oriented Programming (OOP)**, **CRUD**, `ArrayList`, access modifier, encapsulation, serta validasi input. Dengan adanya fitur-fitur tersebut, program dapat membantu pengguna melakukan pengelolaan data wedding secara lebih terstruktur melalui menu yang tersedia.
+
+---
+
+## 📁 Repository
+
+Repository ini menggunakan format penamaan:
+
+```text
+Minpro-1-PBO-HouryDoWedds
+```
+
+Program dibuat sebagai **Mini Project Pemrograman Berorientasi Objek (PBO)** untuk menerapkan konsep OOP dalam sebuah sistem sederhana yang memiliki proses pengelolaan data.
+
+
 
 ### 2. `PaketWedding.java`
-
-Merupakan **class entitas** yang digunakan untuk menyimpan data paket wedding yang tersedia.
-
-Data yang disimpan meliputi:
-
+Class ini merupakan class data yang digunakan untuk menyimpan data dan atribut dari paket wedding yang tersedia.
+Atribut yang disimpan meliputi:
 * ID paket
 * Nama paket
-* Harga paket
-
-Class ini menerapkan **constructor, getter, setter, dan encapsulation**.
-
-### 3. `Vendor.java`
-
-Merupakan **class entitas** yang digunakan untuk menyimpan informasi mengenai vendor yang bekerja sama dengan Wedding Organizer.
-
-Data vendor meliputi informasi seperti:
-
-* ID vendor
-* Nama vendor
-* Jenis vendor
-* Kontak vendor
+* Harga
 
 Class ini juga menerapkan **constructor, getter, setter, dan encapsulation**.
 
