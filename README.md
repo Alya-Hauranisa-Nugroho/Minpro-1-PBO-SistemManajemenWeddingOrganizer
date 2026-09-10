@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Deskripsi Program
+## Deskripsi Program
 
 Sistem Manajemen Wedding Organizer merupakan program berbasis bahasa pemrograman Java yang digunakan untuk mengelola data pada usaha Wedding Organizer "Houry Do Wedds" secara sederhana.
 
@@ -15,7 +15,7 @@ Program ini dibuat dengan menerapkan konsep Object Oriented Programming atau OOP
 
 ---
 
-## 📂 Struktur Class
+## Struktur Class
 
 Program Sistem Manajemen Wedding Organizer terdiri dari beberapa class dengan fungsi yang berbeda, diantaranya yaitu:
 
@@ -68,7 +68,7 @@ Atribut yang diterapkan pada class ini meliputi:
 
 ---
 
-## 🔄 Dokumentasi Alur Program
+## Dokumentasi dan Alur Program
 
 Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutnya dan akan diarahkan ke menu utama yang terdiri dari menu Tambah, Tampilkan, Update, Hapus, dan Keluar. Pengguna dapat memilih menu sesuai kebutuhan, kemudian memilih data yang ingin dikelola, yaitu data pelanggan, paket wedding, atau pemesanan wedding. 
 
@@ -232,7 +232,7 @@ Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memili
 
 ---
 
-## ⭐ Penerapan Nilai Tambah pada Program
+## Penerapan Nilai Tambah pada Program
 
 Program ini memiliki penerapan nilai tambah, yaitu sebagai berikut:
 
