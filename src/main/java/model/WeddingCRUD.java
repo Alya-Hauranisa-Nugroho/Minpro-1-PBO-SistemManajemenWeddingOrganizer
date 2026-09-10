@@ -18,7 +18,7 @@ public class WeddingCRUD {
         daftarPaket.add(new PaketWedding(2, "Paket Gas Nikah", 25000000));
         daftarPaket.add(new PaketWedding(3, "Paket Akhirnya Sah", 40000000));
         daftarPaket.add(new PaketWedding(4, "Paket Cinta Sampai Tua", 55000000));
-        daftarPaket.add(new PaketWedding(5, "Paket Dari Chat ke Pelaminan", 75000000));
+        daftarPaket.add(new PaketWedding(5, "Paket Lancar Sampai Hari H", 75000000));
 
         this.scanner = scanner;
     }
