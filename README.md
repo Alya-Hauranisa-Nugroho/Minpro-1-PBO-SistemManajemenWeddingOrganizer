@@ -1,11 +1,9 @@
 # 💍 Sistem Manajemen Wedding Organizer
 
-### Houry do Wedds
+## Houry do Wedds
 
-**Nama:** Alya Hauranisa Nugroho\
-**NIM:** 2509116005\
-**Kelas:** Sistem Informasi A 2025\
-**Mata Kuliah:** Pemrograman Berorientasi Objek
+#### Alya Hauranisa Nugroho | 2509116005 | Sistem Informasi A 2025
+#### Mata Kuliah: Pemrograman Berorientasi Objek
 
 ---
 
@@ -77,20 +75,24 @@ Secara umum, alur program dimulai ketika pengguna menjalankan program selanjutny
 
 Apabila pengguna telah menyelesaikan proses CRUD yang dipilih dan memilih menu “Kembali ke Menu Utama”, program akan kembali ke menu utama sehingga pengguna dapat melakukan proses lainnya. Program akan terus berjalan selama pengguna belum memilih menu Keluar.
 
-### 1. Menu Utama
+---
+
+### **Menu Utama**
 <img width="472" height="341" alt="image" src="https://github.com/user-attachments/assets/e2ec58d7-0361-4558-8b5e-46fbd85224e4" />
 
 <img width="470" height="326" alt="image" src="https://github.com/user-attachments/assets/4e3910f0-7e09-477f-a1a5-c9cb82d8c35a" />
 
 Pada gambar di atas, saya menampilkan menu utama dari program yang telah dirancang. Terdapat 5 menu utama yang dapat dipilih, yaitu menu untuk menambahkan data, menampilkan data, menghapus data, mengupdate data, serta menu untuk keluar dari program. Pengguna akan diminta untuk memilih salah satu dari kelima menu tersebut.
 
-### 2. Menu Tambah
+---
+
+### **1. Menu Tambah**
 
 <img width="465" height="219" alt="image" src="https://github.com/user-attachments/assets/994e7fa4-0f1d-4aa8-ba09-fb885bb358a2" />
 
 Ketika pengguna memilih “1” pada menu utama, pengguna akan masuk ke dalam Menu Tambah, di mana menu ini memungkinkan pengguna untuk memasukkan data baru pada data pelanggan, paket wedding, maupun pemesanan wedding. Pengguna dapat memilih salah satu jenis data yang ingin ditambahkan sesuai dengan kebutuhan. Pada tampilan tersebut, saya memilih menu “1", "yaitu Tambah Pelanggan”, sehingga program akan melanjutkan ke proses untuk memasukkan data pelanggan.
 
-* Tambah Pelanggan
+* **Tambah Pelanggan**
 
 <img width="568" height="411" alt="image" src="https://github.com/user-attachments/assets/9dbccc13-34a0-4a31-ad23-4c82098f334b" />
 
@@ -98,11 +100,11 @@ Selanjutnya, program akan menampilkan tempat untuk memasukkan data pelanggan. Pe
 
 Berikut merupakan proses penambahan data lainnya:
 
-* Tambah Paket Wedding
+* **Tambah Paket Wedding**
 
 <img width="542" height="224" alt="image" src="https://github.com/user-attachments/assets/147a4c5b-e140-4a0b-9fff-0c76b142049d" />
 
-* Tambah Pemesanan Wedding
+* **Tambah Pemesanan Wedding**
 
 <img width="463" height="362" alt="image" src="https://github.com/user-attachments/assets/2cc31b67-7149-4bb5-a765-a501251e9c0d" />
 
@@ -114,36 +116,112 @@ Berdasarkan gambar di atas, diketahui bahwa pengguna dapat menambahkan:
 * **Paket Wedding**, dengan memasukkan ID, nama paket, dan harga.
 * **Pemesanan Wedding**, dengan memilih pelanggan dan paket wedding yang sudah tersedia, kemudian memasukkan venue, tanggal acara, dan jumlah pax.
 
+
+* **Kembali ke Menu Utama**
 <img width="468" height="569" alt="image" src="https://github.com/user-attachments/assets/5c345a71-7f5b-4056-afcf-876e7fb374ca" />
 
 Apabila telah menyelesaikan proses tambah, pengguna dapat memilih menu "4" untuk keluar dari menu tambah dan kembali ke menu utama.
 
-### Menu Tampilkan
+---
+
+### **2. Menu Tampilkan**
 
 <img width="484" height="245" alt="image" src="https://github.com/user-attachments/assets/f43ce51e-aff5-43e8-b753-e22dc519e881" />
 
 Ketika pengguna memilih “2” pada menu utama, pengguna akan masuk ke dalam Menu Tampilkan, di mana menu ini memungkinkan pengguna untuk melihat data yang sudah ada pada data pelanggan, paket wedding, maupun pemesanan wedding. Berikut merupakan tampilan untuk Menu Tampilkan di setiap data:
 
-* Tampilkan Pelanggan
+* **Tampilkan Pelanggan**
 
 <img width="466" height="213" alt="image" src="https://github.com/user-attachments/assets/6a5c670e-ce87-42a5-818e-132a04b48806" />
 
-* Tampilkan Paket Wedding
+* **Tampilkan Paket Wedding**
 
 <img width="480" height="756" alt="image" src="https://github.com/user-attachments/assets/b9631b23-686c-4740-ac43-4ce9df8fe1f5" />
 
-* Pemesanan Wedding
+* **Tampilkan Pemesanan Wedding**
 
 <img width="469" height="293" alt="image" src="https://github.com/user-attachments/assets/84801c1a-3880-4d73-8a4c-4f80163d660b" />
 
+* **Kembali ke Menu Utama**
 
-Pengguna dapat melihat:
+<img width="477" height="571" alt="image" src="https://github.com/user-attachments/assets/70c93b55-9aab-44fe-8019-d81b30a2295a" />
 
-* Daftar pelanggan
-* Daftar paket wedding
-* Daftar pemesanan wedding
+Pengguna dapat memilih menu "4" untuk keluar dari menu tampilkan dan kembali ke menu utama.
 
-Pada data pemesanan, sistem menampilkan informasi pelanggan dan paket wedding yang dipilih beserta detail acaranya.
+---
+
+### **3. Menu Update**
+
+Ketika pengguna memilih “3” pada menu utama, pengguna akan masuk ke dalam Menu Update. Menu ini digunakan untuk mengubah data yang sudah tersimpan pada program. Pengguna dapat memilih data yang ingin diperbarui, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
+
+<img width="471" height="241" alt="image" src="https://github.com/user-attachments/assets/60b7d882-687e-429e-bb3d-1a03c0d6ba15" />
+
+Pada Menu Update, pengguna dapat memilih salah satu dari tiga jenis data yang tersedia untuk diperbarui. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin diubah. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, pengguna dapat memasukkan informasi baru sesuai dengan atribut yang dapat diperbarui.
+
+Berikut merupakan proses update pada setiap data:
+
+* **Update Pelanggan**
+
+<img width="531" height="225" alt="image" src="https://github.com/user-attachments/assets/a087e433-8374-4fee-a40a-12dba07a002d" />
+
+
+Pada proses Update Pelanggan, pengguna diminta memasukkan ID pelanggan yang ingin diperbarui. Setelah ID ditemukan, pengguna dapat mengubah nama pelanggan dan No HP. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pelanggan berhasil diupdate.
+
+* **Update Paket Wedding**
+
+<img width="593" height="191" alt="image" src="https://github.com/user-attachments/assets/5a60d5e8-793e-40dc-ae32-ab8738bb404d" />
+
+
+Pada proses Update Paket Wedding, pengguna diminta memasukkan ID paket yang ingin diperbarui. Setelah paket ditemukan, pengguna dapat mengubah harga paket wedding. Setelah proses berhasil dilakukan, program akan menampilkan pesan bahwa data paket berhasil diupdate.
+
+* **Update Pemesanan Wedding**
+
+<img width="577" height="248" alt="image" src="https://github.com/user-attachments/assets/77a7562b-80d5-499a-942d-aed56aaf90b0" />
+
+Pada proses Update Pemesanan Wedding, pengguna diminta memasukkan ID booking yang ingin diperbarui. Setelah data ditemukan, pengguna dapat mengubah venue, tanggal acara, dan jumlah pax sesuai dengan kebutuhan. Setelah data berhasil diperbarui, program akan menampilkan pesan bahwa data pemesanan berhasil diupdate.
+
+* **Kembali ke Menu Utama**
+
+<img width="473" height="564" alt="image" src="https://github.com/user-attachments/assets/7b1b44b7-b165-470f-8d9f-5d6d208839cb" />
+
+Apabila telah menyelesaikan proses update, pengguna dapat memilih menu “4” untuk keluar dari Menu Update dan kembali ke menu utama.
+
+---
+
+### **4. Menu Hapus**
+
+Ketika pengguna memilih **“4”** pada menu utama, pengguna akan masuk ke dalam **Menu Hapus**. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
+
+<img width="..." height="..." alt="image" src="..." />
+
+Pada Menu Hapus, pengguna dapat memilih salah satu jenis data yang tersedia. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin dihapus. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, data akan dihapus dari daftar penyimpanan.
+
+Berikut merupakan proses penghapusan pada setiap data:
+
+* **Hapus Pelanggan**
+
+<img width="..." height="..." alt="image" src="..." />
+
+Pada proses **Hapus Pelanggan**, pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
+
+* **Hapus Paket Wedding**
+
+<img width="..." height="..." alt="image" src="..." />
+
+Pada proses **Hapus Paket Wedding**, pengguna diminta memasukkan ID paket yang ingin dihapus. Program akan mencari ID tersebut pada daftar paket wedding. Apabila ID ditemukan, data paket akan dihapus dari sistem dan program akan menampilkan pesan bahwa data paket berhasil dihapus.
+
+* **Hapus Pemesanan Wedding**
+
+<img width="..." height="..." alt="image" src="..." />
+
+Pada proses **Hapus Pemesanan Wedding**, pengguna diminta memasukkan ID booking yang ingin dihapus. Program akan mencari ID booking tersebut pada daftar pemesanan. Apabila ditemukan, data pemesanan akan dihapus dan program akan menampilkan pesan bahwa data pemesanan berhasil dihapus.
+
+* **Kembali ke Menu Utama**
+
+<img width="..." height="..." alt="image" src="..." />
+
+Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”** untuk keluar dari Menu Hapus dan kembali ke menu utama.
+
 
 ### Menu Update
 
