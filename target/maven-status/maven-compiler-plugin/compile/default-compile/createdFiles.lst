@@ -1,0 +1,5 @@
+model\PemesananWedding.class
+model\PaketWedding.class
+model\Pelanggan.class
+model\WeddingCRUD.class
+com\mycompany\weddingorganizer\WeddingOrganizer.class
