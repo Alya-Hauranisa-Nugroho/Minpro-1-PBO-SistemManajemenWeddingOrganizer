@@ -192,7 +192,7 @@ Apabila telah menyelesaikan proses update, pengguna dapat memilih menu “4” u
 
 Ketika pengguna memilih **“4”** pada menu utama, pengguna akan masuk ke dalam **Menu Hapus**. Menu ini digunakan untuk menghapus data yang sudah tersimpan pada sistem. Pengguna dapat memilih data yang ingin dihapus, yaitu data pelanggan, paket wedding, maupun pemesanan wedding.
 
-<img width="..." height="..." alt="image" src="..." />
+<img width="473" height="244" alt="image" src="https://github.com/user-attachments/assets/b9937aff-0999-4fe3-afb4-7cbf83aa91fa" />
 
 Pada Menu Hapus, pengguna dapat memilih salah satu jenis data yang tersedia. Setelah memilih jenis data, pengguna akan diminta memasukkan ID dari data yang ingin dihapus. Program kemudian akan mencari data berdasarkan ID tersebut. Apabila data ditemukan, data akan dihapus dari daftar penyimpanan.
 
@@ -200,52 +200,36 @@ Berikut merupakan proses penghapusan pada setiap data:
 
 * **Hapus Pelanggan**
 
-<img width="..." height="..." alt="image" src="..." />
+<img width="471" height="166" alt="image" src="https://github.com/user-attachments/assets/e26bbf15-903a-440f-a0cd-6b9de18b74b5" />
 
-Pada proses **Hapus Pelanggan**, pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
+
+Pada proses Hapus Pelanggan, pengguna diminta memasukkan ID pelanggan yang ingin dihapus. Program akan mencari ID tersebut pada daftar pelanggan. Apabila ID ditemukan, data pelanggan akan dihapus dan program akan menampilkan pesan bahwa data pelanggan berhasil dihapus.
 
 * **Hapus Paket Wedding**
 
-<img width="..." height="..." alt="image" src="..." />
+<img width="462" height="163" alt="image" src="https://github.com/user-attachments/assets/91557b55-d901-4f1a-8ca6-695caf75f9f7" />
 
-Pada proses **Hapus Paket Wedding**, pengguna diminta memasukkan ID paket yang ingin dihapus. Program akan mencari ID tersebut pada daftar paket wedding. Apabila ID ditemukan, data paket akan dihapus dari sistem dan program akan menampilkan pesan bahwa data paket berhasil dihapus.
+Pada proses Hapus Paket Wedding, pengguna diminta memasukkan ID paket yang ingin dihapus. Program akan mencari ID tersebut pada daftar paket wedding. Apabila ID ditemukan, data paket akan dihapus dari sistem dan program akan menampilkan pesan bahwa data paket berhasil dihapus.
 
 * **Hapus Pemesanan Wedding**
 
-<img width="..." height="..." alt="image" src="..." />
+<img width="492" height="163" alt="image" src="https://github.com/user-attachments/assets/bed7fbb2-88cc-4f17-a6ce-390c9803bc08" />
+
 
 Pada proses **Hapus Pemesanan Wedding**, pengguna diminta memasukkan ID booking yang ingin dihapus. Program akan mencari ID booking tersebut pada daftar pemesanan. Apabila ditemukan, data pemesanan akan dihapus dan program akan menampilkan pesan bahwa data pemesanan berhasil dihapus.
 
 * **Kembali ke Menu Utama**
 
-<img width="..." height="..." alt="image" src="..." />
+<img width="471" height="565" alt="image" src="https://github.com/user-attachments/assets/3de0976c-0a7e-44d9-8691-5c283d5f81bb" />
 
 Apabila telah menyelesaikan proses hapus, pengguna dapat memilih menu **“4”** untuk keluar dari Menu Hapus dan kembali ke menu utama.
 
+5. **Keluar >>>**
 
-### Menu Update
+<img width="545" height="516" alt="image" src="https://github.com/user-attachments/assets/b9ca1bc7-6617-4d37-bc53-8842b47c691d" />
 
-Menu Update digunakan untuk mengubah data yang sudah tersimpan.
 
-Pengguna dapat melakukan perubahan pada:
-
-* Nama dan nomor HP pelanggan
-* Harga paket wedding
-* Venue, tanggal acara, dan jumlah pax pada pemesanan
-
-### Menu Hapus
-
-Menu Hapus digunakan untuk menghapus data berdasarkan ID yang dimasukkan oleh pengguna.
-
-Pengguna dapat menghapus:
-
-* Data pelanggan
-* Data paket wedding
-* Data pemesanan wedding
-
-### 🚪 Keluar
-
-Menu Keluar digunakan untuk mengakhiri program.
+Apabila pengguna telah selesai melakukan pengelolaan data, pengguna dapat memilih menu “5” pada menu utama untuk mengakhiri program. Setelah pengguna memilih menu tersebut, program akan menampilkan pesan “BYEEEE!!” sebagai tanda bahwa program telah selesai dijalankan.
 
 ---
 
